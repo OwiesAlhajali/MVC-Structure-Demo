@@ -36,9 +36,9 @@ namespace NTierTodoApp.Business
                 task.IsComplete = true;
         }
 
-         public void DeleteTask(int id)
+        public void DeleteTask(int id)
         {
-            taskRepository.DeleteTask(id);
+            repository.DeleteTask(id);
         }
     }
 }
